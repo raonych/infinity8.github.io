@@ -1,0 +1,316 @@
+body{
+    align-content: center;
+    text-align: justify;
+    background-color: #302D47;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.index_body{
+    justify-content: center;
+}
+
+
+/*Menu*/
+.nav{
+    display: flex;
+    background-color: #302D47;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    position: fixed;
+    height: 10%;
+    top: 0px;
+    left: 0px;
+    width: 99%;
+    align-self: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.nav a{    
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 1%;
+    padding: 18px 18px;
+    text-decoration: none;
+    height: 32px;
+    transition-duration: 400ms;
+}
+ 
+.nav a:hover {
+    background-color: transparent;
+    color: #6c63ff;
+}
+
+.logo{
+    position: relative;
+    bottom: 80px;
+ }
+ 
+ .logo img{
+     width: 180px;
+     height: 180px;
+ }
+
+.about_us{
+    position: relative; 
+    right: 10px;
+    
+}
+
+.game_ico{
+    padding-top:14px; 
+
+}
+
+
+
+/*Index*/
+
+.index_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.index_intro{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+    color: white;
+}
+
+.index_intro p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.box{
+    background-color:#BFBFBF2E;
+    width:fit-content ;
+    margin: 27px 10px;
+    margin-top: 1%;
+    border-radius: 16px;
+    width: 20%;
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35%;
+    width: 100%;
+}
+
+.image3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25%;
+        width: 100%;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 65%;
+    height: 5%;
+    margin-top: 0;
+}
+
+
+/**Sobre Nós**/
+
+.info_container{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    margin-top: 105px;
+}
+
+.info_collumn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.info_collumn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+/* content */
+
+.intel_content{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 8%;
+}
+
+.intel_content p{
+    color: black;
+}
+
+.intel_collumns{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+
+.intel_collumns p{
+    color: black;
+}
+
+.intel_collumn1{
+    width: 20%;
+    background-color: #CECBE6;
+    border: solid black 2px;
+    border-radius: 12px;
+    margin-right: 12px;
+    padding: 10px;
+}
+
+.intel_collumn1  a{
+    font-size: 23px;
+    display: block;
+    background-color: black ;
+    color: #CECBE6;
+    margin-top: 1%;
+    border: solid 1px ;
+    border-radius: 10px ;
+    margin-right: 5%;
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 300ms;
+}
+
+.intel_collumn1  a:hover{
+    display: block;
+    background-color: transparent ;
+    color: black;
+    margin-top: 1%;
+    border: solid 1px ;
+    border-radius: 10px ;
+    border-color: black;
+    margin-right: 5%;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.intel_collumn2{
+    width: 80%;
+    background-color: #CECBE6;
+    border: solid black 2px;
+    border-radius: 12px;
+    padding: 15px;
+    
+}
+
+.intel_intro{
+    display: flex;
+    text-align: left;
+    align-items: right;
+}
+
+.img_box{
+    display: flex;
+    justify-content: center;
+}
+
+
+.intel_img{
+    width: 320px;
+    height: 220px;
+    margin-top: 10%; 
+    
+}
+.ridley_img{
+    width: 200px;
+    height: 280px; 
+}
+
+.intel_history{
+    align-self: center;
+    width: 100%;
+    background-color: #CECBE6;
+    border: solid black 2px;
+    border-radius: 12px;
+    padding: 15px;
+}
+.content_titles{
+    text-align: center;
+    font-family: 'Courier New';
+}
+
+
+.film_video iframe{
+    width: 1120px;
+    height: 630px;
+   border-radius: 12px;
+   background-color: #CECBE6;
+   border: solid black 2px;
+   padding: 15px; 
+}
+.film_video{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    
+}
+.divbd{
+    text-decoration: none;
+    color: black;
+    transition-duration: 300ms;
+    
+}
+.divbd :visited {
+    text-decoration: none;
+    
+}
+.divbd:hover{
+    color: #302D47;
+}
+
+/* Banco de Dados */
+.bd_content{
+    align-self: center;
+    width: 100%;
+    background-color: #CECBE6;
+    border: solid black 2px;
+    border-radius: 12px;
+    padding: 15px;
+}
+.bd_content img{
+    align-self: center;
+    width: 100%;
+    border-radius: 12px;
+}
